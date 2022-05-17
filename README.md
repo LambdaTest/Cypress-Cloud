@@ -3,7 +3,7 @@
 
 Cypress is a modern web front-end testing tool built with JavaScript Mocha. Cypress testing operates directly on the browsers without the need for Selenium. Its unique DOM manipulation technique makes it a very developer and QA-friendly tool.
 
-With this **LambdaTest** and **Cypress** integration, LambdaTest not only allows you to perform Cypress testing on an online automation cloud but also allows you to perform cross-browser testing at scale. In this document, we will see how to get started with Cypress testing on the LambdaTest platform.
+With **LambdaTest** and **Cypress** integration, you can perform Cypress testing on an online automation cloud across 40+ browsers versions. In this documentation, we will see how to get started with Cypress testing on the LambdaTest platform.
 
 ## Pre-requisites To Run Your Cypress Tests
 
