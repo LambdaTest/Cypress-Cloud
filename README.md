@@ -275,6 +275,62 @@ For example, if you want to run your Cypress tests on 5 parallel sessions, use t
 
 > The number of parallel test running on the LambdaTest platform at a time, is based on the concurrency plan of your LambdaTest account. In case the number of parallel tests is more than the concurrency plan, the remaining tests will get queued and run after the existing tests are complete. For example, suppose you have a concurrency plan of 5 parallel sessions and want to run 50 tests parallelly. In this case, only 5 parallel tests will be executed at a time, and the rest 45 will be queued. As the test finishes running, the queued tests will be moved to the running state based on availability.
     
+## Supported Browsers and Operating Systems
+
+LambdaTest supports the below listed browsers, browser versions and Operating Systems for Cypress testing:
+
+```json
+{
+"lambdatest_auth": {
+   "username": "<YOUR_LAMBDATEST_USERNAME>",
+   "access_key": "<Your LambdaTest access key>"
+},
+"browsers": [
+   {
+      "browser": "Chrome",
+      "platform": "Windows 10",
+      "versions": [
+         "86.0"
+      ]
+},
+   {
+      "browser": "Firefox",
+      "platform": "Windows 10",
+      "versions": [
+         "82.0"
+      ]
+   }
+],
+```
+
+| OPERATING SYSTEM | CHROME                   | FIREFOX      | EDGE                     |
+| ---------------- | ------------------------ | ------------ | ------------------------ |
+| macOS Catalina\* | 66 and above (Except 82) | 60 and above | 80 and above (Except 82) |
+| macOS Big Sur    | 66 and above (Except 82) | 60 and above | 80 and above (Except 82) |
+| Windows 10       | 66 and above (Except 82) | 60 and above | 80 and above (Except 82) |
+| Windows 8.1\*    | 66 and above (Except 82) | 60 and above | 80 and above (Except 82) |
+| Windows 8        | 66 and above (Except 82) | 60 and above | 80 and above (Except 82) |
+| Windows 7\*      | 66 and above (Except 82) | 60 and above | 80 and above (Except 82) |
+
+> **Note**: The Operating systems, with (\*) mentioned against them, will be live soon.
+
+## Supported Cypress Versions
+    
+With the newer versions of Cypress releasing, to gain the most from recent improvements and bug fixes, it is recommended that your test scripts use the latest version. The .latest format defines the Cypress versions, ensuring that your test scripts always use the latest minor version. 
+
+LambdaTest uses the latest minor version to run the tests when Cypress versions are set as 6, 7, 8 or 9. 
+
+You will learn about:
+
+- The Cypress versions supported by us.
+- How to set Cypress version in code.
+
+## Cypress versions supported by LambdaTest:
+***
+ 
+LambdaTest provides support for all the version, starting from - 6.0.0 to 9.2.0. Reach out to our support team if you have a use case where you want to use a different Cypress version other than the one we support. 
+
+    
 ## List Of LambdaTest Cypress CLI Commands
 ***
     
