@@ -116,7 +116,7 @@ lambdatest-cypress run
 
 As soon as the tests starts executing, you can view them running. Just visit your LambdaTest Automation Dashboard.
 
-<img loading="lazy" src={require('../assets/images/uploads/cypress-testin1.webp').default} alt="Image" width="1282" height="722" className="doc_img"/>
+![This is an image](https://www.lambdatest.com/support/assets/images/cypress-testin1-82ec5d8865b2125e60aa8523295a56b9.webp)
 
 For each test, you can view the live video feed, screenshots for each test run, console logs, terminal logs and do much more using the **LambdaTest platform**.
 
