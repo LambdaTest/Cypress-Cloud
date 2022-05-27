@@ -8,7 +8,7 @@
 *Learn how to [get started with Cypress testing on the LambdaTest platform](https://www.lambdatest.com/support/docs/getting-started-with-cypress-testing/).*
 
 ## Table of Contents:
-***
+
 
 * [Pre-requisites](#pre-requisites)
 * [Running Your First Cypress Test On LambdaTest Platform](#running-your-first-cypress-test-on-lambdatest-platform)
@@ -24,11 +24,9 @@
 * [Execute Cypress Tests Including Private Dependencies](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/dependencies.md)
 * [Applitools Integration For Cypress](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/applitools-integration.md)
 * [ReportPortal.io Integration With LambdaTest For Cypress](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/reportportalio-integration.md)
-***
+
 
 ## Pre-requisites
-
----
 
 Before we get started, make sure to clone the [LambdaTest's sample Cypress Kitchen Sink repo](https://github.com/LambdaTest/cypress-example-kitchensink), used in this document. You can run your first Cypress test on the LambdaTest platform in a few simple steps:
 
@@ -53,7 +51,7 @@ Before we get started, make sure to clone the [LambdaTest's sample Cypress Kitch
   lambdatest-cypress init
   ```
 ## Running Your First Cypress Test On LambdaTest Platform
-***
+
 
 To demonstrate Cypress testing on the LambdaTest platform, we will use the Cypress’ Kitchen Sink example in the demo below.
 
@@ -132,7 +130,7 @@ lambdatest-cypress run
 ```
 
 ## View Your Cypress Testing Result On LambdaTest Platform
----
+
 
 As soon as the tests starts executing, you can view them running. Just visit your LambdaTest Automation Dashboard.
 
@@ -147,7 +145,7 @@ If the test gets executed successfully, you will see a green tick on the Timelin
 
 
 ## Running Your Cypress Tests Locally On LambdaTest Platform
----
+
 
 To run your tests locally on the LambdaTest platform, you need to setup LambdaTest tunnel, and execute commands using the CLI, or [download UnderPass](https://downloads.lambdatest.com/underpass/master/UnderPass%20Setup.exe), our GUI based desktop app. Once you have the LambdaTest tunnel or Underpass set up and started, you can use the LambdaTest platform to run your Cypress tests locally.
 
@@ -163,7 +161,7 @@ Now you need to activate the tunnel capability in the lambdatest_config.json fil
 You can provide the name of the **LambdaTest tunnel** as per your requirements.
 
 ## Authentication
-***
+
     
 Authenticate your Cypress test runs in the following ways -
 
@@ -176,8 +174,6 @@ Authenticate your Cypress test runs in the following ways -
 CLI arguments > Options set in lambdatest-config.json > Environment variables
 
 ### Utilizing CLI Params:
-
----
 
 The following args can be used while running tests using the run command.
 
@@ -193,8 +189,6 @@ For example -
 ```
 
 ### Using lambdatest-config.json:
-
----
 
 The auth option will help you in specifying your username and access key. You can find your username and access key in the [LambdaTest Automation Dashboard](https://automation.lambdatest.com/build). Both, the auth credentials set in environment variables and the ones mentioned in the lambdatest-config.json file will get overridden.
       
@@ -218,8 +212,6 @@ For example -
 ```
 
 ### Setup the Environment Variables:
-
----
 
 While utilizing the CLI params, you can set up the following environment variables.
 
@@ -245,21 +237,21 @@ set LT_USERNAME="YOUR_USERNAME" set LT_ACCESS_KEY="YOUR ACCESS KEY"
 > **Note** - By doing so, the auth credentials you use in your lambdatest-config.json file will get overridden only if these options are not provided in lambdatest-config.json.<br>
 
 ## LambdaTest Community :busts_in_silhouette:
-***
+
 The [LambdaTest Community](https://community.lambdatest.com/) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe.
 
 ## Documentation & Resources :books:
-***
+
       
 If you want to learn more about the LambdaTest's features, setup, and usage, visit the [LambdaTest documentation](https://www.lambdatest.com/support/docs/). You can also find in-depth tutorials around test automation, mobile app testing, responsive testing, manual testing on [LambdaTest Blog](https://www.lambdatest.com/blog/) and [LambdaTest Learning Hub](https://www.lambdatest.com/learning-hub/).     
       
 ## About LambdaTest
-***
+
 [LambdaTest](https://www.lambdatest.com) is a leading test execution and orchestration platform that is fast, reliable, scalable, and secure. It allows users to run both manual and automated testing of web and mobile apps across 3000+ different browsers, operating systems, and real device combinations. Using LambdaTest, businesses can ensure quicker developer feedback and hence achieve faster go to market. Over 500 enterprises and 1 Million + users across 130+ countries rely on LambdaTest for their testing needs.    
     
 [<img height="70" src="https://user-images.githubusercontent.com/70570645/169649126-ed61f6de-49b5-4593-80cf-3391ca40d665.PNG">](https://accounts.lambdatest.com/register)
       
 ## We are here to help you :headphones:
-***
+
 * Got a query? we are available 24x7 to help. [Contact Us](support@lambdatest.com)
 * For more info, visit - https://www.lambdatest.com
