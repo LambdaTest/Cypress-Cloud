@@ -1,4 +1,4 @@
-# Getting Started With Cypress Testing: Tutorial  ![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
+# Cypress Testing On LambdaTest ![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
 
 <img height="500" class ="centre" src="https://user-images.githubusercontent.com/70570645/171032160-65d8a2c3-e04b-482d-b1c6-538b75be5fb0.png">
 
@@ -24,11 +24,11 @@
 
 *Learn how to [get started with Cypress testing on the LambdaTest platform](https://www.lambdatest.com/support/docs/getting-started-with-cypress-testing/) 🚀*
 
-## Table of Contents:
+## Table of Contents 🗏
 
 
 * [Pre-requisites](#pre-requisites)
-* [Running Your First Cypress Test On LambdaTest Platform](#running-your-first-cypress-test-on-lambdatest-platform)
+* [Running Your First Cypress Test On LambdaTest Platform](#running-your-first-cypress-test-on-lambdatest)
 * [Local Testing With Cypress](#running-your-cypress-tests-locally)
 * [Authentication](#authentication)
 * [Cypress Parallel Testing](https://github.com/LambdaTest/Cypress-Cloud/blob/master/cypress-docs/parallel-testing.md)
@@ -67,7 +67,7 @@ Before we get started, make sure to clone the LambdaTest Cypress Cloud Repo. You
   ```bash
   lambdatest-cypress init
   ```
-## Running Your First Cypress Test On LambdaTest Platform
+## Running Your First Cypress Test On LambdaTest
 
 
 >**Test Scenario**: To demonstrate Cypress testing on LambdaTest, we will use the Cypress Kitchen Sink Example.
@@ -244,10 +244,7 @@ set LT_USERNAME="YOUR_USERNAME" set LT_ACCESS_KEY="YOUR ACCESS KEY"
       
 > **Note** - By doing so, the auth credentials you use in your lambdatest-config.json file will get overridden only if these options are not provided in lambdatest-config.json.<br>
 
-## LambdaTest Community :busts_in_silhouette:
 
-The [LambdaTest Community](https://community.lambdatest.com/) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe.
-    
 ## Tutorials 📙
 
 Check out our latest tutorials on Cypress automation testing 👇
@@ -272,6 +269,11 @@ Subscribe To Our [LambdaTest YouTube Channel 🔔](https://www.youtube.com/c/Lam
 
       
 If you want to learn more about the LambdaTest's features, setup, and usage, visit the [LambdaTest documentation](https://www.lambdatest.com/support/docs/). You can also find in-depth tutorials around test automation, mobile app testing, responsive testing, manual testing on [LambdaTest Blog](https://www.lambdatest.com/blog/) and [LambdaTest Learning Hub](https://www.lambdatest.com/learning-hub/).     
+
+## LambdaTest Community :busts_in_silhouette:
+
+The [LambdaTest Community](https://community.lambdatest.com/) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe 🌎
+    
       
 ## About LambdaTest
 
@@ -294,6 +296,10 @@ If you want to learn more about the LambdaTest's features, setup, and usage, vis
 
     
 [<img height="70" src="https://user-images.githubusercontent.com/70570645/169649126-ed61f6de-49b5-4593-80cf-3391ca40d665.PNG">](https://accounts.lambdatest.com/register)
+
+## Release Notes 
+
+To stay updated with the latest features and product add-ons, visit [Changelog](https://changelog.lambdatest.com/) 
       
 ## We are here to help you :headphones:
 
