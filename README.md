@@ -273,7 +273,10 @@ If you want to learn more about the LambdaTest's features, setup, and usage, vis
 ## LambdaTest Community :busts_in_silhouette:
 
 The [LambdaTest Community](https://community.lambdatest.com/) allows people to interact with tech enthusiasts. Connect, ask questions, and learn from tech-savvy people. Discuss best practises in web development, testing, and DevOps with professionals from across the globe 🌎
-    
+
+## What's New At LambdaTest ❓
+
+To stay updated with the latest features and product add-ons, visit [Changelog](https://changelog.lambdatest.com/) 
       
 ## About LambdaTest
 
@@ -297,9 +300,7 @@ The [LambdaTest Community](https://community.lambdatest.com/) allows people to i
     
 [<img height="70" src="https://user-images.githubusercontent.com/70570645/169649126-ed61f6de-49b5-4593-80cf-3391ca40d665.PNG">](https://accounts.lambdatest.com/register)
 
-## Release Notes 
 
-To stay updated with the latest features and product add-ons, visit [Changelog](https://changelog.lambdatest.com/) 
       
 ## We are here to help you :headphones:
 
