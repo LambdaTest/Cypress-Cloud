@@ -268,7 +268,11 @@ Subscribe To Our [LambdaTest YouTube Channel 🔔](https://www.youtube.com/c/Lam
 ## Documentation & Resources :books:
 
       
-If you want to learn more about the LambdaTest's features, setup, and usage, visit the [LambdaTest documentation](https://www.lambdatest.com/support/docs/). You can also find in-depth tutorials around test automation, mobile app testing, responsive testing, manual testing on [LambdaTest Blog](https://www.lambdatest.com/blog/) and [LambdaTest Learning Hub](https://www.lambdatest.com/learning-hub/).     
+Visit the following links to learn more about LambdaTest's features, setup and tutorials around test automation, mobile app testing, responsive testing, and manual testing.
+
+* [LambdaTest Documentation](https://www.lambdatest.com/support/docs/)
+* [LambdaTest Blog](https://www.lambdatest.com/blog/)
+* [LambdaTest Learning Hub](https://www.lambdatest.com/learning-hub/)    
 
 ## LambdaTest Community :busts_in_silhouette:
 
