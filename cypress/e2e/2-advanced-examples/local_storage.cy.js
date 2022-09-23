@@ -2,7 +2,7 @@
 
 context('Local Storage', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:8080/commands/local-storage')
+    cy.visit('https://example.cypress.io/commands/local-storage')
   })
   // Although local storage is automatically cleared
   // in between tests to maintain a clean state
