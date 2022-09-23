@@ -5,5 +5,3 @@
 tasks:
   - init: npm install -g lambdatest-cypress-cli
     command: lambdatest-cypress run
-
-
