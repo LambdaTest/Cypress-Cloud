@@ -187,12 +187,12 @@ The following args can be used while running tests using the run command.
 | Arg        | Shorthand | Accepted values            |
 | ---------- | --------- | -------------------------- |
 | --username | -u        | Your LambdaTest username   |
-| --key      | -k        | Your LambdaTest access key |
+| --access_key      | -k        | Your LambdaTest access key |
 
 For example -
 
 ```bash
- lambdatest-cypress run --username YOUR_USERNAME --key YOUR_ACCESS_KEY
+ lambdatest-cypress run --username YOUR_USERNAME --access_key YOUR_ACCESS_KEY
 ```
 
 ### Using lambdatest-config.json:
