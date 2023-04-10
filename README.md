@@ -64,7 +64,7 @@ Before we get started, make sure to clone the LambdaTest Cypress Cloud Repo. You
   Once you have installed the LambdaTest-Cypress CLI, now you need to setup the configuration. You can do that using the below command:
 
   ```bash
-  lambdatest-cypress init
+  lambdatest-cypress init cy=10
   ```
 ## Running Your First Cypress Test On LambdaTest
 
@@ -88,44 +88,42 @@ Here, we have used the below configuration as default and generated it in the `l
 
 ```json
 {
-  "lambdatest_auth": {
-    "username": "<YOUR_LAMBDATEST_USERNAME>",
-    "access_key": "<Your LambdaTest access key>"
-  },
-  "browsers": [
-    {
-      "browser": "Chrome",
-      "platform": "Windows 10",
-      "versions": ["latest"]
-    },
-    {
-      "browser": "Firefox",
-      "platform": "Windows 10",
-      "versions": ["latest"]
-    }
-  ],
-  "run_settings": {
-    "cypress_config_file": "cypress.json",
-    "build_name": "build-name",
-    "parallels": 1,
-    "specs": "./*.spec.js",
-    "ignore_files": "",
-    "npm_dependencies": {
-      "cypress": "9.1.0"
-    },
-    "feature_file_suppport": false
-  },
-  "tunnel_settings": {
-    "tunnel": false,
-    "tunnelName": null
-  }
+   "lambdatest_auth": {
+      "username": "<Your LambdaTest username>",
+      "access_key": "<Your LambdaTest access key>"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest","latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "Cypress 10 JOB Demo",
+      "parallels": 10,
+      "specs": "**/*.cy.js",
+      "ignore_files": "",
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "10.0.0"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
 }
 ```
 
-Also in `run-settings` section you need to specify the path of your `spec.js` file on which you want to run the test on. Here we will pass the path of a **all examples** spec.js file for our demo.
+Also in `run-settings` section you need to specify the path of your `*.cy.js` file on which you want to run the test on. Here we will pass the path of a **all examples** cy.js file for our demo.
 
 ```json
-"specs": "./cypress/integration/examples/*.spec.js"
+"specs": "**/*.cy.js"
 ```
 
 > In this demo, all occurrences of http://localhost:8080 have been replaced with [https://example.cypress.io](https://example.cypress.io) to prevent running the Cypress tests locally. Alternatively, if you want to run your tests locally, refer to the [**Run Cypress tests locally**](https://www.lambdatest.com/support/docs/running-your-first-cypress-test/#running-your-cypress-tests-locally-on-lambdatest-platform) section below.
