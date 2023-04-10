@@ -111,7 +111,7 @@ Here, we have used the below configuration as default and generated it in the `l
     "specs": "./*.spec.js",
     "ignore_files": "",
     "npm_dependencies": {
-      "cypress": "6.1.0"
+      "cypress": "9.1.0"
     },
     "feature_file_suppport": false
   },
@@ -122,10 +122,10 @@ Here, we have used the below configuration as default and generated it in the `l
 }
 ```
 
-Also in `run-settings` section you need to specify the path of your `spec.js` file on which you want to run the test on. Here we will pass the path of a **sample to do** spec.js file for our demo.
+Also in `run-settings` section you need to specify the path of your `spec.js` file on which you want to run the test on. Here we will pass the path of a **all examples** spec.js file for our demo.
 
 ```json
-"specs": "./cypress/integration/1-getting-started/todo.spec.js"
+"specs": "./cypress/integration/examples/*.spec.js"
 ```
 
 > In this demo, all occurrences of http://localhost:8080 have been replaced with [https://example.cypress.io](https://example.cypress.io) to prevent running the Cypress tests locally. Alternatively, if you want to run your tests locally, refer to the [**Run Cypress tests locally**](https://www.lambdatest.com/support/docs/running-your-first-cypress-test/#running-your-cypress-tests-locally-on-lambdatest-platform) section below.
