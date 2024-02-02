@@ -1,7 +1,7 @@
 {
    "lambdatest_auth": {
-      "username": "<Your LambdaTest username>",
-      "access_key": "<Your LambdaTest access key>"
+      "username": "akumar35",
+      "access_key": "lO9FTrLzpca2FYrjcSaRwUt5ouzrXyPU8sSM7V7DRxP4Mm9aqP"
    },
    "browsers": [
       {
@@ -23,7 +23,7 @@
       "cypress_config_file": "cypress.json",
       "build_name": "build-name",
       "parallels": 2,
-      "specs": "./cypress/integration/examples/*.spec.js",
+      "specs": "./cypress/**/*.spec.js",
       "ignore_files": "",
       "feature_file_suppport": false,
       "network": false,
