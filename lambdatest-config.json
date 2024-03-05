@@ -16,7 +16,7 @@
       "reporter_config_file": "base_reporter_config.json",
       "build_name": "Cypress 10 JOB Demo",
       "parallels": 10,
-      "specs": "**/*.cy.js",
+      "specs": "cypress/e2e/**/*.cy.js",
       "ignore_files": "",
       "network": false,
       "headless": false,
