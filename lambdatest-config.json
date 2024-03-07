@@ -14,14 +14,14 @@
    ],
    "run_settings": {
       "reporter_config_file": "base_reporter_config.json",
-      "build_name": "Cypress 10 JOB Demo",
+      "build_name": "Cypress version above 10 JOB Demo",
       "parallels": 10,
       "specs": "cypress/e2e/**/*.cy.js",
       "ignore_files": "",
       "network": false,
       "headless": false,
       "npm_dependencies": {
-         "cypress": "10.0.0"
+         "cypress": "13.6.2"
       }
    },
    "tunnel_settings": {
