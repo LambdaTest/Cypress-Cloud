@@ -15,11 +15,11 @@ context('Location', () => {
     cy.location().should((location) => {
       expect(location.hash).to.be.empty
       expect(location.href).to.eq('https://example.cypress.io/commands/location')
-      expect(location.host).to.eq('localhost:8080')
-      expect(location.hostname).to.eq('localhost')
-      expect(location.origin).to.eq('https://example.cypress.io/')
+      expect(location.host).to.eq('example.cypress.io')
+      expect(location.hostname).to.eq('example.cypress.io')
+      expect(location.origin).to.eq('https://example.cypress.io')
       expect(location.pathname).to.eq('/commands/location')
-      expect(location.port).to.eq('8080')
+      expect(location.port).to.eq('')
       expect(location.protocol).to.eq('https:')
       expect(location.search).to.be.empty
     })
@@ -27,6 +27,6 @@ context('Location', () => {
 
   it('cy.url() - get the current URL', () => {
     // https://on.cypress.io/url
-    cy.url().should('eq', 'http://example.cypress.io/commands/location')
+    cy.url().should('eq', 'https://example.cypress.io/commands/location')
   })
 })
