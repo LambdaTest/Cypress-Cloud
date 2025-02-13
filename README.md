@@ -303,7 +303,13 @@ To stay updated with the latest features and product add-ons, visit [Changelog](
     
 [<img height="70" width="220" src="https://user-images.githubusercontent.com/70570645/171866795-52c11b49-0728-4229-b073-4b704209ddde.png">](https://accounts.lambdatest.com/register)
 
-      
+  ## Validate Custom Headers
+
+Custom headers are essential when making API requests to include metadata such as authentication tokens, tracking information, or custom identifiers. This test ensures that custom headers are correctly sent and received using Cypress.
+
+The test sends a GET request to `https://httpbin.org/headers` with a custom header (`x-custom-header`). It then validates that the server receives the correct header in the response.
+
+
 ## We are here to help you :headphones:
 
 * Got a query? we are available 24x7 to help. [Contact Us](support@lambdatest.com)
