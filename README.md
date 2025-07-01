@@ -174,7 +174,7 @@ Authenticate your Cypress test runs in the following ways -
 
 1. Set up the **environment variables**. (or)
 2. Utilizing the **CLI params**. (or)
-3. Mention yourusername and access key in the **lambdatest-config.json**.
+3. Mention your username and access key in the **lambdatest-config.json**.
 
 > **Warning:** We use the following order of precedence to determine which auth credentials to use if you use more than one option to pass your auth credentials:
 
