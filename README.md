@@ -13,7 +13,7 @@
 With TestMu AI (Formerly LambdaTest), you can run Cypress automation tests on a scalable cloud browser grid using the TestMu AI Cypress CLI. This sample shows how to configure Cypress to run on the TestMu AI cloud.
 
 - [Sign up on TestMu AI](https://www.testmuai.com/register/) (Formerly LambdaTest).
-- Follow the [TestMu AI Documentation](https://www.testmuai.com/support/docs/) for the full setup walkthrough.
+- Follow the [TestMu AI Documentation](https://www.testmuai.com/support/docs/getting-started-with-cypress-testing/) for the full setup walkthrough.
 
 ### Prerequisites
 
